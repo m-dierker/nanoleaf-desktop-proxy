@@ -20,6 +20,6 @@ export class AppController {
       return;
     }
     const success = await this.nanoleaf.setScene(req.scene);
-    return success ? 'ok' : 'error';
+    res.sendStatus(success ? 200 : 500);
   }
 }

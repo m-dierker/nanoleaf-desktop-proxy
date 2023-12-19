@@ -26,10 +26,12 @@ export class NanoleafService {
       value: { effect: { value: sceneName } },
     };
 
+    console.log('pinging Nanoleaf');
     const resp = await this.http.axiosRef.post(
       `http://127.0.0.1:${NANOLEAF_PORT}/essentials/control`,
       body,
     );
+    console.log('nanoleaf reply', resp.status, resp.data);
 
     return resp.status === 200;
   }
