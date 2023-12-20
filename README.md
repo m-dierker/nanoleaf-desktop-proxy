@@ -2,6 +2,8 @@
 
 Programatically control Nanoleaf Essentials Smart Holiday lights.
 
+![a user pressing a button, then Christmas lights animating](https://github.com/m-dierker/nanoleaf-desktop-proxy/blob/0e443153ccebad680196b2051953dea46a7a5142/docs/demo.gif 'Demo')
+
 ```
 Twas the week before Christmas
 and all through the house
@@ -23,8 +25,6 @@ and got out of this pinch
 Hoping maybe one day
 the lights stop being a grinch
 ```
-
-![a user pressing a button, then Christmas lights animating](https://github.com/m-dierker/nanoleaf-desktop-proxy/blob/0e443153ccebad680196b2051953dea46a7a5142/docs/demo.gif 'Demo')
 
 # What is this?
 
