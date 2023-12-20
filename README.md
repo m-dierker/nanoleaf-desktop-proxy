@@ -1,24 +1,26 @@
 # Nanoleaf Desktop Proxy
 
-> Twas the week before Christmas
-> and all through the house
-> Not a Scene was playing
-> by touch or by mouse
->
-> The Nanoleaf lights
-> were strung with care
-> In the hopes that animation
-> soon would be there
->
-> The wifi was active!
-> Even Matter connected!
-> But sadly the Nanoleafs
-> were plain and dejected
->
-> The fake Santa sighed
-> and set to his work
-> Hoping maybe one day
-> the API won't be a jerk
+```
+Twas the week before Christmas
+and all through the house
+Not a Scene was playing
+by touch or by mouse
+
+The Nanoleaf lights
+were strung with care
+In the hopes that animation
+soon would be there
+
+The wifi was active!
+Even Matter connected!
+But sadly the Nanoleafs
+were plain and dejected
+
+The fake Santa sighed
+and set to his work
+Hoping maybe one day
+the API isn't a jerk
+```
 
 ### What is this?
 
