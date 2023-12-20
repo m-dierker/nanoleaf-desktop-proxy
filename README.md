@@ -44,8 +44,7 @@ Thankfully, Nanoleaf does have an API for animating the lights, they just don't 
 
 Follow the (non-trivial) installation steps below. Once you've completed the setup, changing scenes is as simple as:
 
-````
-
+```
 POST http://localhost:7682/scene
 
 {"scene": "Candy Cane"}
@@ -134,5 +133,7 @@ That's it! You should now be able to change your device's scene using the Usage 
 # In closing...
 
 This is pretty dumb, but it's the workaround I found that allows me to programtically animate my lights now without waiting. Questions and tips are welcome!
+
 ```
-````
+
+```
