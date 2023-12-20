@@ -24,6 +24,8 @@ Hoping maybe one day
 the lights stop being a grinch
 ```
 
+![a user pressing a button, then Christmas lights animating](https://github.com/m-dierker/nanoleaf-desktop-proxy/blob/0e443153ccebad680196b2051953dea46a7a5142/docs/demo.gif 'Demo')
+
 # What is this?
 
 **tl;dr:** [Nanoleaf Essentials Smart Holiday Lights](https://nanoleaf.me/en-US/products/seasonal/holiday-string-lights/?size=each) have neat animations! Sadly, the public API only permits a single color for all 250 lights. 😒 This hacky project allows you to programatically use animation scenes.
