@@ -125,6 +125,6 @@ Leave the Nanoleaf Desktop app running. Back in the terminal in this repo's dire
 
 That's it! You should now be able to change your device's scene using the Usage instructions shown above.
 
-# FAQs
+# In closing...
 
 This is pretty dumb, but it's the workaround I found that allows me to programtically animate my lights now without waiting. Questions and tips are welcome!
