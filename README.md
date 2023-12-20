@@ -1,5 +1,7 @@
 # Nanoleaf Desktop Proxy
 
+Programatically control Nanoleaf Essentials Smart Holiday lights.
+
 ```
 Twas the week before Christmas
 and all through the house
