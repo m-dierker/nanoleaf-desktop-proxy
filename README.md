@@ -48,7 +48,6 @@ Follow the (non-trivial) installation steps below. Once you've completed the set
 POST http://localhost:7682/scene
 
 {"scene": "Candy Cane"}
-
 ```
 
 The scene name is case sensitive and must exactly match the app.
