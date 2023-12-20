@@ -44,10 +44,12 @@ Thankfully, Nanoleaf does have an API for animating the lights, they just don't 
 
 Follow the (non-trivial) installation steps below. Once you've completed the setup, changing scenes is as simple as:
 
-```
+````
+
 POST http://localhost:7682/scene
 
 {"scene": "Candy Cane"}
+
 ```
 
 The scene name is case sensitive and must exactly match the app.
@@ -106,6 +108,7 @@ Get the right info:
 - With this request highlighted, right click `Javascript Object Notation: application/json` in the bottom left panel, then select Copy --> ...as C string. This should copy/ a bunch of JSON that looks like this:
 
 ```
+
 "{"devices":[{"essentialsScenes":{...},
 "id":"LIGHTS_ID",
 "ip":"LIGHTS_IP",
@@ -115,6 +118,7 @@ Get the right info:
 "token":"IGNORE_THIS",
 "eui64":"IGNORE_THIS"}],
 "value":{"effect":{"value":"IGNORE_THIS"}}}"
+
 ```
 
 Paste this into a text editor. There are four fields you need to pull out. Go to .env, and find the corresponding sections of the JSON notated above. Copy/paste the four values into the .env file. Do not use quotes.
@@ -130,3 +134,5 @@ That's it! You should now be able to change your device's scene using the Usage 
 # In closing...
 
 This is pretty dumb, but it's the workaround I found that allows me to programtically animate my lights now without waiting. Questions and tips are welcome!
+```
+````
