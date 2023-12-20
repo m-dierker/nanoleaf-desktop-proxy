@@ -56,7 +56,7 @@ The scene name is case sensitive and must exactly match the app.
 
 ## Prereqs
 
-- A Mac or Windows PC that can be left running in the background.
+- A Mac or Windows PC that can be left running in the background
 - Nanoleaf Essentials Smart Holiday Lights
 - Some programming expertise
 - Git
@@ -66,11 +66,11 @@ The scene name is case sensitive and must exactly match the app.
 
 ### Nanoleaf Desktop
 
-- If you haven't already, add your Smart Holiday lights to the Nanoleaf Cloud via the Nanoleaf app.
+- If you haven't already, add your Smart Holiday lights to the Nanoleaf Cloud via the Nanoleaf app on your phone.
   - If you need to factory reset your lights, [here are instructions](https://helpdesk.nanoleaf.me/en-US/how-to-control-your-holiday-string-lights-using-button-342048).
 - Install [Nanoleaf Desktop](https://nanoleaf.me/en-US/integration/desktop-app/).
 - Sign in with your Nanoleaf Cloud account, and link your Smart Holiday lights if needed.
-  - For me, this required re-entering my 10 digit pairing code from the instructions.
+  - For me, this required re-entering my 10 digit pairing code from the paper instructions. It may also be printed on your device.
 
 At this point, you should be able to control your lights via the Nanoleaf Desktop app. Make sure you can turn them on/off and set scenes.
 
@@ -91,7 +91,7 @@ Setup:
 
 - Download and install [Wireshark](https://www.wireshark.org/download.html).
   - Make sure to follow the installer's instructions for your OS. This may require additional drivers or packages to be installed.
-- When Wireshark is open, click `Loopback` to start capturing on the loopback adapter. You should see packets start to appear. If not, stop and debug.
+- When Wireshark is open, click `Loopback` to start capturing on the loopback adapter (your computer talking to itself). You should see packets start to appear. If not, stop and debug.
 - Click the Stop (red square) top, then clear the screen (paper with an X). Continue without saving.
 
 Record a packet:
@@ -103,7 +103,7 @@ Get the right info:
 
 - In the Wireshark filter field, type `http`, and press Enter. This will filter to just HTTP requests.
 - Under the Info column, look for a request that starts `POST /essentials/control`. This is the call from Nanoleaf to itself to set a scene.
-- With this request highlighted, right click `Javascript Object Notation: application/json` in the bottom left panel, then select Copy --> ...as C string. This should copy/ a bunch of JSON that looks like this:
+- With this request highlighted, right click `Javascript Object Notation: application/json` in the bottom left panel, then select Copy --> ...as C string. This should copy a bunch of JSON that looks like this:
 
 ```
 
@@ -132,7 +132,3 @@ That's it! You should now be able to change your device's scene using the Usage 
 # In closing...
 
 This is pretty dumb, but it's the workaround I found that allows me to programtically animate my lights now without waiting. Questions and tips are welcome!
-
-```
-
-```
